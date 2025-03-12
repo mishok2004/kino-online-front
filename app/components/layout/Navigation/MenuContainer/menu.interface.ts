@@ -1,6 +1,6 @@
 import { TypeMaterialIconName } from '@/shared/types/icon.types'
 
-export interface IMenuItems {
+export interface IMenuItem {
 	icon: TypeMaterialIconName
 	title: string
 	link: string
@@ -8,5 +8,5 @@ export interface IMenuItems {
 
 export interface IMenu {
 	title: string
-	items: IMenuItems[]
+	items: IMenuItem[]
 }
