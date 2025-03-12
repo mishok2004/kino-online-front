@@ -2,7 +2,7 @@ import { FC } from 'react'
 import styles from './Sidebar.module.scss'
 
 const Sidebar: FC = () => {
-	return <div></div>
+	return <div>Side</div>
 }
 
 export default Sidebar

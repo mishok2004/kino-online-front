@@ -1,11 +1,12 @@
 import { FC } from 'react'
 import { IHome } from './home.interface'
+import Layout from '@/components/layout/Layout'
 
 const Home: FC<IHome> = () => {
 	return (
-		<div>
-			<h1>hp</h1>
-		</div>
+		<Layout>
+			<h1>Home</h1>
+		</Layout>
 	)
 }
 
