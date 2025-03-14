@@ -8,5 +8,5 @@ export interface IMenuItem {
 
 export interface IMenu {
 	title: string
-	items: IMenuItem[]
+	item: IMenuItem[]
 }
