@@ -2,12 +2,11 @@ import { FC, useState } from 'react'
 import { SubmitHandler, useForm } from 'react-hook-form'
 
 import { IAuthInput } from '@/components/layout/auth.interface'
+import AuthFields from '@/components/shared/user/AuthFields'
 import Button from '@/components/ui/form-elements/Button'
 import Heading from '@/components/ui/heading/Heading'
 
 import { useAuth } from '@/hooks/useAuth'
-
-import AuthFields from '@/shared/types/user/AuthFields'
 
 import Meta from '@/utils/meta/Meta'
 

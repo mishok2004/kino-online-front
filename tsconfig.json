@@ -17,6 +17,7 @@
 		"baseUrl": "./app/",
 		"paths": {
 			"@/assets/*": ["assets/*"],
+			"@/config/*": ["config/*"],
 			"@/components/*": ["components/*"],
 			"@/screen/*": ["components/screen/*"],
 			"@/ui/*": ["components/ui/*"],
